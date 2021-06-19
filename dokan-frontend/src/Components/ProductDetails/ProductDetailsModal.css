@@ -1,0 +1,254 @@
+.ModalHeader {
+  cursor: default;
+}
+
+.ModalBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.ModalBodyInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 100%;
+}
+
+.InfoItemImaga {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 190px;
+  width: 190px;
+}
+
+.InfoItemImaga img {
+  height: 100%;
+  width: 100%;
+}
+
+.InfoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 190px;
+  width: 300px;
+}
+
+.InfoItemText {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15%;
+  width: 100%;
+}
+
+.InfoItemText p {
+  margin-top: 1rem;
+  padding: 0% 2% 0% 2%;
+}
+
+.InfoItemCart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+  width: 100%;
+}
+
+.InfoItemCartButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 3% 0% 3% 0%;
+  padding: 0%;
+  height: 60%;
+  width: 80%;
+  border-radius: 5px;
+  background-color: #ffc107;
+}
+
+.InfoItemCartDecrease {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+}
+
+.InfoItemCartDecrease p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.InfoCart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 80%;
+  border-radius: 0px;
+}
+
+.InfoCart p {
+  margin-top: 1rem;
+  padding: 0% 2% 0% 2%;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.InfoItemCartIcon {
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  color: white;
+}
+
+.InfoItemCartIncrease {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+
+.InfoItemCartIncrease p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.ModalBodyDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  text-align: justify;
+}
+
+.ModalFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.ModalFooterInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 100%;
+}
+
+.DeliveryInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+.DeliveryMethod {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 50%;
+}
+
+.ModalFooterImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50px;
+}
+
+.ModalFooterImage img {
+  height: 100%;
+  width: 100%;
+}
+
+.ModalFooterImageText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 1% 0% 1%;
+  height: 100%;
+  width: auto;
+}
+
+.ModalFooterImageText p {
+  margin-top: 1rem;
+}
+
+.PaymentInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  width: 50%;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .InfoItemText { font-size: 12px; }
+  .InfoItemCartDecrease p { font-size: 12px; }
+  .InfoCart p { font-size: 12px; }
+  .InfoItemCartIcon { font-size: 16px; }
+  .InfoItemCartIncrease p { font-size: 12px; }
+  .ModalBodyDetails { font-size: 12px; }
+  .ModalFooterImageText p { font-size: 12px; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .InfoItemText { font-size: 12px; }
+  .InfoItemCartDecrease p { font-size: 12px; }
+  .InfoCart p { font-size: 12px; }
+  .InfoItemCartIcon { font-size: 16px; }
+  .InfoItemCartIncrease p { font-size: 12px; }
+  .ModalBodyDetails { font-size: 12px; }
+  .ModalFooterImageText p { font-size: 12px; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .InfoItemText { font-size: 14px; }
+  .InfoItemCartDecrease p { font-size: 14px; }
+  .InfoCart p { font-size: 14px; }
+  .InfoItemCartIcon { font-size: 18px; }
+  .InfoItemCartIncrease p { font-size: 14px; }
+  .ModalBodyDetails { font-size: 14px; }
+  .ModalFooterImageText p { font-size: 14px; }
+}

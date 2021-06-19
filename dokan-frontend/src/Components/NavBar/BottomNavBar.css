@@ -1,0 +1,554 @@
+.BottomNavbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  font-weight: bold;
+  background-color: #ffc107;
+}
+
+.Link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 15%;
+}
+
+.Link:hover {
+  text-decoration: none;
+}
+
+.NavbarBrand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.NavbarBrand img {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.NavbarBrand img:hover {
+  cursor: pointer;
+}
+
+.NavbarBrandText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.NavbarBrandText:hover {
+  cursor: pointer;
+}
+
+.NavbarBrandText p {
+  display: flex;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-top: 1.5rem;
+  font-size: 20px;
+  color: brown;
+}
+
+.NavItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 85%;
+}
+
+.SearchBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 70%;
+}
+
+.SearchIcon:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.CartBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.Link .CartBox {
+  background-color: #ffc107;
+  color: black;
+  border: solid 1px #ffc107;
+  font-weight: bold;
+}
+
+.Link .CartBox:hover {
+  cursor: pointer;
+  background-color: orange;
+
+  border-radius: 10px;
+}
+
+.Link .CartBox:focus  {
+  background-color: orange;
+  color: black;
+  border: solid 1px orange;
+}
+
+.CartCount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 40%;
+}
+
+.CartCount img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 80%;
+  width: 80%;
+  z-index: 0;
+  color: black;
+}
+
+.CartCountText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15%;
+  left: 34%;
+  margin: 0%;
+  padding: 0%;
+  height: 40%;
+  width: 45%;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.CartCountText p {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: black;
+}
+
+.CartMoney {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 60%;
+}
+
+.CartMoneyText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 50%;
+  width: 100%;
+}
+
+.CartMoneyText p {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: black;
+}
+
+.CartMoneySum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 50%;
+  width: 100%;
+}
+
+.CartMoneySum p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: bolder;
+  color: black;
+}
+
+.RegisterBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.RegisterBox:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+.RegisterBox p {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: black;
+}
+
+.RegisterBox p:hover {
+  color: black;
+}
+
+.Link .dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.Link .btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.Link .btn-secondary {
+  background-color: #ffc107;
+  color: black;
+  border: solid 1px #ffc107;
+  font-weight: bold;
+}
+
+.Link .btn-secondary:hover {
+  background-color: orange;
+  color: black;
+  border: solid 1px orange;
+}
+
+.Link .btn-secondary:focus  {
+  background-color: orange;
+  color: black;
+  border: solid 1px orange;
+}
+
+.Link .show>.btn-secondary.dropdown-toggle {
+  background-color: orange;
+  color: black;
+  border: solid 1px orange;
+}
+
+.CollapseNavItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 50%;
+}
+
+.CollapseNavItems .dropdown-item-text { 
+  padding: 0% 5% 0% 5%;
+}
+
+.CollapseNavItems .btn-secondary {
+  background-color: #ffc107;
+}
+
+.CollapseNavItems .btn-secondary:hover {
+  background-color: orange;
+}
+
+.CollapseNavItems .btn-secondary:focus {
+  background-color: #ffc107;
+}
+
+.CollapseSearchBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 1% 0% 1%;
+  height: 100%;
+  width: 100%;
+}
+
+.CollapseSearchIcon:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.CollapseSearchBox Input { 
+  padding: 0% 3% 0% 3%;
+  font-size: 12px;
+}
+
+.CollapseLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.CollapseLink:hover {
+  text-decoration: none;
+}
+
+.CollapseLink Button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.CollapseLink .CollapseCartBox {
+  background-color: white;
+  color: black;
+  border: solid 1px white;
+  font-weight: bold;
+}
+
+.CollapseLink .CollapseCartBox:hover {
+  cursor: pointer;
+  background-color: #ffc107;
+
+  border-radius: 10px;
+}
+
+.CollapseLink .CollapseCartBox:focus  {
+  background-color: #ffc107;
+  color: black;
+  border: solid 1px #ffc107;
+}
+
+.CollapseCartCount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 30%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.CollapseCartCount img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  color: black;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.CollapseCartCountText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15%;
+  left: 34%;
+  margin: 0%;
+  padding: 0%;
+  height: 40%;
+  width: 45%;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.CollapseCartCountText p {
+  margin-top: 1rem;
+  font-size: 12px;
+  color: black;
+}
+
+.CollapseCartMoney {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 70%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.CollapseCartMoneyText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 50%;
+  width: 100%;
+  border-radius: 0px 10px 0px 0px;
+}
+
+.CollapseCartMoneyText p {
+  margin-top: 1rem;
+  font-size: 12px;
+  color: black;
+}
+
+.CollapseCartMoneySum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 50%;
+  width: 100%;
+  border-radius: 0px 0px 10px 0px; 
+}
+
+.CollapseCartMoneySum p {
+  margin-top: 1rem;
+  font-size: 12px;
+  font-weight: bolder;
+  color: black;
+}
+
+.CollapseRegisterBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.CollapseRegisterBox:hover {
+  cursor: pointer;
+  background-color: #ffc107;
+}
+
+.CollapseRegisterBox p {
+  margin-top: 1rem;
+  font-size: 12px;
+  color: black;
+}
+
+.CollapseRegisterBox p:hover {
+  color: black;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .NavItems { display: none; }
+  .Link { width: 40%; }
+  .NavbarBrand { width: 60%; }
+  .NavbarBrandText { width: 40%; }
+  .NavbarBrandText p { margin-top: 2rem; font-size: 14px; }
+  .CollapseNavItems { display: visible; width: 60%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .NavItems { display: none; }
+  .Link { width: 30%; }
+  .NavbarBrand { width: 60%; }
+  .NavbarBrandText { width: 40%; }
+  .NavbarBrandText p { margin-top: 2rem; font-size: 16px; }
+  .CollapseNavItems { display: visible; width: 70%; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .NavItems { display: visible; }
+  .Link { width: 20%; }
+  .NavbarBrand { width: 60%; }
+  .NavbarBrandText { width: 40%; }
+  .NavbarBrandText p { margin-top: 2rem; font-size: 18px; }
+  .CartCount { width: 40%; }
+  .CartCountText p { font-weight: bold; }
+  .CartMoney { width: 60%; }
+  .CartMoneyText p {  font-size: 12px; }
+  .CartMoneySum p { font-size: 12px; }
+  .Link .btn { padding: 0%; }
+  .CollapseNavItems { display: none; }
+}
+
+@media only screen and (min-width: 1024px) {
+  .NavItems { display: visible; }
+  .CollapseNavItems { display: none; }
+}

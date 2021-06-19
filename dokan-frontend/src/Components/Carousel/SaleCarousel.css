@@ -1,0 +1,37 @@
+.SaleCarousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.SaleCarouselIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.SaleCarousel p {
+  display: flex;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: auto;
+  width: 200px;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .SaleCarousel p { width: 200px; }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+	.SaleCarousel p { width: 200px; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.SaleCarousel p { width: 200px; }
+}

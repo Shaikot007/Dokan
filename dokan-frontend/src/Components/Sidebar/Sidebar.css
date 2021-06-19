@@ -1,0 +1,248 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.Nav {
+  height: 100%;
+  width: 100%;
+  border: #ffc107 solid 1px;
+}
+
+.NavItemCategory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+  background-color: #ffc107;
+  color: white;
+}
+
+.NavItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.NavItem:hover {
+  background-color: #ffc107;
+  color: white;
+  cursor: pointer;
+}
+
+.Category {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 100%;
+}
+
+.CategoryIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 20%;
+}
+
+.CategoryText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 80%;
+}
+
+.CategoryText p {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.SubCategoryText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 80%;
+}
+
+.SubCategoryText p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.NavItemPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25% 0% 5% 0%;
+  padding: 0%;
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+  background-color: #ffc107;
+  color: white;
+}
+
+.PriceFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0% 5% 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+  font-size: 15px;
+}
+
+.InputBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.PriceInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 80%;
+  width: 40%;
+}
+
+.PriceInput input {
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 80%;
+  width: 100%;
+  font-size: 14px;
+}
+
+.PriceHash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 80%;
+  width: 10%;
+}
+
+.PriceHash p {
+  margin-top: 1rem;
+  padding: 0%;
+}
+
+.FilterButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 2% 0% 2% 0%;
+  height: auto;
+  width: 100%;
+}
+
+.FilterButton Button {
+  height: auto;
+  width: 60%;
+}
+
+.CountryNavItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.Country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 100%;
+  width: 100%;
+}
+
+.SaleAdvertise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25% 0% 60% 0%;
+  padding: 1%;
+  height: 200px;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+.SaleAdvertise img {
+  height: 100%;
+  width: 100%;
+  border-radius: 2px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .Nav { border: none; }
+  .SaleAdvertise { margin: 25% 0% 25% 0%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .NavItemPrice { margin: 50% 0% 5% 0%; }
+  .PriceFilter { margin: 0% 0% 50% 0%; }
+  .SaleAdvertise { margin: 40% 0% 35% 0%; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .NavItemPrice { margin: 100% 0% 5% 0%; }
+  .PriceFilter { margin: 0% 0% 50% 0%; }
+  .SaleAdvertise { margin: 85% 0% 80% 0%; }
+}

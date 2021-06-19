@@ -1,0 +1,264 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 2% 0% 0% 0%;
+  height: 450px;
+  width: 100%;
+  z-index: 0;
+  background-color: black;
+  color: white;
+}
+
+.FooterBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 6% 0% 0% 0%;
+  padding: 0%;
+  height: 70%;
+  width: 90%;
+}
+
+.FooterInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 1% 0% 1%;
+  padding: 0%;
+  height: 100%;
+  width: 25%;
+}
+
+.FooterInfoHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 1% 0% 1%;
+  height: 20%;
+  width: 100%;
+  border-bottom: solid #ffc107 1px;
+}
+
+.FooterInfoHeader p {
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+.FooterInfoDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 2% 1% 2% 1%;
+  height: 80%;
+  width: 100%;
+  border-top: solid #ffc107 1px;
+}
+
+.FooterInfoDescription p {
+  margin-top: 1rem;
+  font-size: 14px;
+  line-height: 5%;
+}
+
+.FooterInfoDescription a {
+  color: white;
+  text-decoration: none;
+}
+
+.InfoBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: 15%;
+  width: 100%;
+}
+
+.InfoBox:hover {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.InfoBoxIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 8%;
+}
+
+.InfoBoxText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0% 1% 0% 1%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 90%;
+}
+
+.InfoBoxText p {
+  margin-top: 1rem;
+  padding: 0%;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.InfoBoxSocial {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: 15%;
+  width: 100%;
+}
+
+.InfoBoxTextSocial {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0% 1% 0% 1%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 100%;
+}
+
+.InfoBoxTextSocial p {
+  margin-top: 1rem;
+  padding: 0%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.InfoBoxTextSocial a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 1% 0% 1%;
+}
+
+.SocialIcon {
+  margin: 0% 1% 0% 1%;
+}
+
+.SocialIcon:hover {
+  cursor: pointer;
+  color: #ffc107;
+}
+
+.AddressBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: 15%;
+  width: 100%;
+}
+
+.AddressBoxIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 8%;
+}
+
+.AddressBoxText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0% 1% 0% 1%;
+  padding: 0%;
+  height: 100%;
+  width: 90%;
+}
+
+.AddressBoxText p {
+  margin-top: 1rem;
+  padding: 0%;
+  font-size: 14px;
+}
+
+.FooterCopyRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2% 0% 0% 0%;
+  padding: 0%;
+  height: 10%;
+  width: 90%;
+  text-align: center;
+}
+
+.FooterCopyRight p {
+  margin-top: 1rem;
+  font-size: 16px;
+}
+
+.FooterCopyRight p a {
+  text-decoration: none;
+  color: white;
+}
+
+.FooterCopyRight p a:hover {
+  color: #ffc107;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .Footer { height: 100%; }
+  .FooterBox { flex-direction: column; }
+  .FooterInfo { margin: 1% 0% 1% 0%; width: 100%; }
+  .FooterInfoHeader p { font-size: 16px; }
+  .FooterInfoDescription p { font-size: 12px; }
+  .InfoBoxText { padding: 0%; }
+  .AddressBoxText { padding: 0%; }
+  .FooterCopyRight p { font-size: 12px; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .Footer { height: 100%; }
+  .FooterBox { flex-direction: column; }
+  .FooterInfo { margin: 1% 0% 1% 0%; width: 100%; }
+  .FooterInfoHeader p { font-size: 18px; }
+  .FooterInfoDescription p { font-size: 14px; }
+  .InfoBoxText { padding: 0%; }
+  .AddressBoxText { padding: 0%; }
+  .FooterCopyRight p { font-size: 14px; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .Footer { height: 100%; }
+  .FooterBox { flex-direction: column; }
+  .FooterInfo { margin: 1% 0% 1% 0%; width: 100%; }
+  .FooterInfoHeader p { font-size: 18px; }
+  .FooterInfoDescription p { font-size: 16px; }
+  .InfoBoxText { padding: 0%; }
+  .AddressBoxText { padding: 0%; }
+  .FooterCopyRight p { font-size: 16px; }
+}

@@ -1,0 +1,92 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0px 0px 0px;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+
+.Main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0% 0% 0% 0%;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.NavbarLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 16.7%;
+}
+
+.ProductArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 83.3%;
+}
+
+.CategoryName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0% 1% 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+}
+
+.Pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2% 1% 0% 1%;
+  padding: 2% 1% 0% 1%;
+  height: auto;
+  width: 100%;
+}
+
+.FooterArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .Main { flex-direction: column; }
+  .NavbarLeft { width: 100%; }
+  .ProductArea { width: 100%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .NavbarLeft { width: 30%; }
+  .ProductArea { width: 70%; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .NavbarLeft { width: 20%; }
+  .ProductArea { width: 80%; }
+}

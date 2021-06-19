@@ -1,0 +1,56 @@
+.TopNavbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 100%;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.ToggleSideBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+}
+
+.ToggleSideBar .custom-switch {
+  display: flex;
+}
+
+.ToggleSideBar .custom-control-label {
+  cursor: pointer;
+}
+
+.SaleOffBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 90%;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .ToggleSideBar { width: 20%; }
+  .SaleOffBox { width: 80%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .ToggleSideBar { width: 20%; }
+  .SaleOffBox { width: 80%; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .ToggleSideBar { width: 20%; }
+  .SaleOffBox { width: 80%; }
+}

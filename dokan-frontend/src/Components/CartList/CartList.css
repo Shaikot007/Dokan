@@ -1,0 +1,468 @@
+.CartListImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.CartListImage img {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.CartList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+}
+
+.CartListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+}
+
+.CartListHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 0% 0% 0%;
+  padding: 0%;
+  height: 40px;
+  width: 100%;
+  background-color: #59b210;
+  border: solid lightgrey 1px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.CartListHeader p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.HeaderName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 35%;
+  text-align: justify;
+}
+
+.HeaderPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 30%;
+  text-align: justify;
+}
+
+.HeaderQuantity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+  text-align: justify;
+}
+
+.HeaderTotal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+  text-align: justify;
+}
+
+.HeaderRemove {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 5%;
+  text-align: justify;
+}
+
+.CartProductList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 0% 1% 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+  text-align: justify;
+  background-color: white;
+  border-top: solid lightgrey 1px;
+  border-bottom: solid lightgrey 2px;
+}
+
+.CartProductList h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: lightgrey;
+}
+
+.CartProductList p {
+  margin-top: 1rem;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.CartProductImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 15%;
+  border-radius: 5px;
+}
+
+.CartProductImage img {
+  margin: 0%;
+  padding: 0%;
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+.CartProductName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 20%;
+  text-align: justify;
+}
+
+.CartProductPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 30%;
+  text-align: justify;
+}
+
+.CartProductQuantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0%;
+  padding: 0%;
+  height: 40%;
+  width: 10%;
+  text-align: justify;
+  border: solid 1px lightgrey;
+  border-radius: 50px;
+}
+
+.CartProductQuantity p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.CartProductQuantity .QuantityButton {
+  cursor: pointer;
+}
+
+.CartProductTotal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+  text-align: justify;
+}
+
+.CartProductRemove {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 5%;
+  text-align: justify;
+}
+
+.RemoveIcon {
+  color: lightgrey;
+}
+
+.RemoveIcon:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.OrderSummaryBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0% 0% 0% 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+}
+
+.PaymentMethod {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 2%;
+  height: 300px;
+  width: 350px;
+}
+
+.OrderSummary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 300px;
+  width: 350px;
+}
+
+.SummaryHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 10%;
+  width: 100%;
+  border-bottom: lightgrey solid 2px;
+}
+
+.SummaryHeader p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.SubTotalBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 10%;
+  width: 100%;
+}
+
+.SubTotalBox p {
+  margin-top: 1rem;
+  font-size: 15px;
+}
+
+.SubTotalText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 50%;
+  text-align: left;
+}
+
+.SubTotal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 50%;
+}
+
+.SubTotal p {
+  font-weight: bold;
+}
+
+.GrandTotalBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 5% 2% 5% 2%;
+  height: 10%;
+  width: 100%;
+  border-top: lightgrey solid 2px;
+  border-bottom: lightgrey solid 2px;
+}
+
+.GrandTotalBox p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.CheckOutBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10% 0% 0% 0%;
+  padding: 0% 2% 0% 2%;
+  height: 15%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .HeaderName { width: 30%; }
+  .HeaderPrice { width: 25%; }
+  .HeaderQuantity { width: 15%; }
+  .HeaderTotal { width: 20%; }
+  .HeaderRemove { width: 10%; }
+  .CartListHeader p { font-size: 10px; font-weight: normal; }
+  .CartProductList p { font-size: 10px; font-weight: normal; }
+  .CartProductImage { width: 15%; }
+  .CartProductImage img { height: 40px; width: 40px; }
+  .CartProductName { justify-content: flex-start; padding: 0% 1% 0% 1%; width: 15%; }
+  .CartProductPrice { padding: 0% 1% 0% 1%; width: 25%; }
+  .CartProductQuantity { justify-content: space-around; height: 40%; width: 15%; }
+  .CartProductQuantity p { margin: 0rem; }
+  .CartProductTotal { width: 20%; }
+  .CartProductRemove { width: 10%; }
+  .PaymentMethod { height: 200px; width: 200px; }
+  .PaymentMethod h5 { font-size: 14px; }
+  .form-check { font-size: 12px; }
+  .form-check-input { margin-top: 2rem; }
+  .OrderSummary { justify-content: flex-start; height: 200px; width: 250px; }
+  .SummaryHeader p { font-size: 14px; font-weight: 600; }
+  .SubTotalBox { padding: 0%; height: 15%; }
+  .SubTotalText p { font-size: 10px; }
+  .SubTotal p { font-size: 10px; font-weight: 600; }
+  .GrandTotalBox { height: 15%; padding:  5% 0% 5% 0%; }
+  .GrandTotalBox .SubTotalText { height: 20px; }
+  .GrandTotalBox .SubTotal { height: 20px; }
+  .GrandTotalBox p { font-size: 10px; font-weight: bold; }
+  .CheckOutBox Button { height: 80%; width: 50%; font-size: 12px; padding: 0%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .HeaderName { width: 30%; }
+  .HeaderPrice { width: 25%; }
+  .HeaderQuantity { width: 15%; }
+  .HeaderTotal { width: 20%; }
+  .HeaderRemove { width: 10%; }
+  .CartListHeader p { font-size: 10px; font-weight: normal; }
+  .CartProductList p { font-size: 10px; font-weight: normal; }
+  .CartProductImage { width: 15%; }
+  .CartProductImage img { height: 40px; width: 40px; }
+  .CartProductName { justify-content: flex-start; padding: 0% 1% 0% 1%; width: 15%; }
+  .CartProductPrice { padding: 0% 1% 0% 1%; width: 25%; }
+  .CartProductQuantity { justify-content: space-around; height: 40%; width: 15%; }
+  .CartProductQuantity p { margin: 0rem; }
+  .CartProductTotal { width: 20%; }
+  .CartProductRemove { width: 10%; }
+  .PaymentMethod { height: 200px; width: 200px; }
+  .PaymentMethod h5 { font-size: 14px; }
+  .form-check { font-size: 12px; }
+  .form-check-input { margin-top: 2rem; }
+  .OrderSummary { justify-content: flex-start; height: 200px; width: 250px; }
+  .SummaryHeader p { font-size: 14px; font-weight: 600; }
+  .SubTotalBox { padding: 0%; height: 15%; }
+  .SubTotalText p { font-size: 10px; }
+  .SubTotal p { font-size: 10px; font-weight: 600; }
+  .GrandTotalBox { height: 15%; padding:  5% 0% 5% 0%; }
+  .GrandTotalBox .SubTotalText { height: 20px; }
+  .GrandTotalBox .SubTotal { height: 20px; }
+  .GrandTotalBox p { font-size: 10px; font-weight: bold; }
+  .CheckOutBox Button { height: 80%; width: 50%; font-size: 12px; padding: 0%; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .HeaderName { width: 30%; }
+  .HeaderPrice { width: 25%; }
+  .HeaderQuantity { width: 15%; }
+  .HeaderTotal { width: 20%; }
+  .HeaderRemove { width: 10%; }
+  .CartListHeader p { font-size: 12px; font-weight: bold; }
+  .CartProductList p { font-size: 12px; font-weight: bold; }
+  .CartProductImage { width: 15%; }
+  .CartProductImage img { height: 60px; width: 60px; }
+  .CartProductName { justify-content: flex-start; padding: 0% 1% 0% 1%; width: 15%; }
+  .CartProductPrice { padding: 0% 1% 0% 1%; width: 25%; }
+  .CartProductQuantity { justify-content: space-around; height: 40%; width: 15%; }
+  .CartProductQuantity p { margin: 0rem; }
+  .CartProductTotal { width: 20%; }
+  .CartProductRemove { width: 10%; }
+  .PaymentMethod { height: 200px; width: 200px; }
+  .PaymentMethod h5 { font-size: 16px; }
+  .form-check { font-size: 14px; }
+  .form-check-input { margin-top: 2rem; }
+  .OrderSummary { justify-content: flex-start; padding: 2% 0% 2% 0%; height: 200px; width: 250px; }
+  .SummaryHeader p { font-size: 16px; font-weight: bold; }
+  .SubTotalBox { padding: 0%; height: 15%; }
+  .SubTotalText p { font-size: 12px; }
+  .SubTotal p { font-size: 12px; font-weight: bold; }
+  .GrandTotalBox { height: 15%; padding:  5% 0% 5% 0%; }
+  .GrandTotalBox .SubTotalText { height: 20px; }
+  .GrandTotalBox .SubTotal { height: 20px; }
+  .GrandTotalBox p { font-size: 12px; font-weight: bold; }
+  .CheckOutBox Button { height: 100%; width: 50%; font-size: 14px; padding: 0%; }
+}
