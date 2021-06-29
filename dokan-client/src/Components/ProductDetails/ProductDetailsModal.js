@@ -6,6 +6,12 @@ import { fetchProductDetailsAction } from "../../Redux/Action/ProductAction";
 import { cartListAddAction, cartListRemoveAction } from "../../Redux/Action/CartListAction";
 import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import AmericanExpressImage from "../../Images/Products_details/Amex.png";
+import BkashImage from "../../Images/Products_details/Bkash.png";
+import CashImage from "../../Images/Products_details/Cash.png";
+import DeliveryImage from "../../Images/Products_details/Delivery.png";
+import MasterCardImage from "../../Images/Products_details/Mastercard.png";
+import VisaCardImage from "../../Images/Products_details/Visa.png";
 
 const ProductDetailsModal = (props) => {
 
@@ -89,7 +95,7 @@ const ProductDetailsModal = (props) => {
             <div className="DeliveryInfo">
               <div className="DeliveryMethod">
                 <div className="ModalFooterImage">
-                  <img src={productsDetailsData.delivery_image} alt="Delivery_image" />
+                  <img src={DeliveryImage} alt="Delivery_image" />
                 </div>
                 <div className="ModalFooterImageText">
                   <p>{productsDetailsData.delivery_text}</p>
@@ -97,7 +103,7 @@ const ProductDetailsModal = (props) => {
               </div>
               <div className="DeliveryMethod">
                 <div className="ModalFooterImage">
-                  <img src={productsDetailsData.cash_image} alt="Delivery_image" />
+                  <img src={CashImage} alt="Delivery_image" />
                 </div>
                 <div className="ModalFooterImageText">
                   <p>{productsDetailsData.cash_text}</p>
@@ -109,16 +115,16 @@ const ProductDetailsModal = (props) => {
                 <p>{productsDetailsData.payment_text}</p>
               </div>
               <div className="ModalFooterImage">
-                <img src={productsDetailsData.american_express_image} alt="Payment_methods_image" />
+                <img src={AmericanExpressImage} alt="Payment_methods_image" />
               </div>
               <div className="ModalFooterImage">
-                <img src={productsDetailsData.master_card_image} alt="Payment_methods_image" />
+                <img src={MasterCardImage} alt="Payment_methods_image" />
               </div>
               <div className="ModalFooterImage">
-                <img src={productsDetailsData.visa_card_image} alt="Payment_methods_image" />
+                <img src={VisaCardImage} alt="Payment_methods_image" />
               </div>
               <div className="ModalFooterImage">
-                <img src={productsDetailsData.bcash_image} alt="Payment_methods_image" />
+                <img src={BkashImage} alt="Payment_methods_image" />
               </div>
             </div>
           </div>
